@@ -1,0 +1,986 @@
+{
+  "aguascalientes": {
+    "nombre": "Aguascalientes",
+    "descripcion": "Aguascalientes es una ciudad con tradición ferial, arquitectura colonial y espacios familiares. Puedes conocer su centro histórico, museos y barrios tradicionales.",
+    "gastronomia": "En Aguascalientes te recomiendo probar birria, lechón, enchiladas estilo Aguascalientes, condoches y dulces de guayaba.",
+    "ruta": "Una buena ruta puede iniciar en la Plaza de la Patria, continuar por la Catedral, visitar el Museo Nacional de la Muerte y terminar en el Jardín de San Marcos.",
+    "lugares": "Algunos lugares recomendados son la Plaza de la Patria, el Jardín de San Marcos, el Museo Nacional de la Muerte, el Templo de San Antonio y Tres Centurias.",
+    "pueblosMagicos": "Cerca de Aguascalientes puedes visitar Calvillo, famoso por la guayaba y sus paisajes, y Real de Asientos, con historia minera y arquitectura antigua."
+  },
+  "calvillo": {
+    "nombre": "Calvillo",
+    "descripcion": "Calvillo es un Pueblo Mágico de Aguascalientes conocido por sus huertas de guayaba, calles tranquilas y ambiente tradicional.",
+    "gastronomia": "En Calvillo prueba productos de guayaba, birria, dulces artesanales, nieves y platillos caseros de la región.",
+    "ruta": "Puedes iniciar en la plaza principal, visitar el templo del Señor del Salitre, recorrer tiendas de dulces de guayaba y terminar en la presa de Malpaso.",
+    "lugares": "Lugares recomendados son el templo del Señor del Salitre, la plaza principal, la presa de Malpaso y los talleres de dulces de guayaba.",
+    "pueblosMagicos": "Además de Calvillo, en Aguascalientes puedes visitar Real de Asientos, ideal para conocer historia minera y recorridos culturales."
+  },
+  "real_de_asientos": {
+    "nombre": "Real de Asientos",
+    "descripcion": "Real de Asientos es un Pueblo Mágico con pasado minero, calles antiguas, túneles y construcciones virreinales.",
+    "gastronomia": "En Real de Asientos puedes probar comida regional, gorditas, birria, dulces típicos y platillos caseros.",
+    "ruta": "Una ruta puede comenzar en el templo principal, seguir por los túneles históricos, visitar el panteón antiguo y terminar con un paseo por el centro.",
+    "lugares": "Algunos lugares son la Parroquia de Nuestra Señora de Belén, los túneles, el panteón antiguo y la Casa Larrañaga.",
+    "pueblosMagicos": "Cerca también puedes visitar Calvillo, famoso por la guayaba y sus paisajes naturales."
+  },
+  "mexicali": {
+    "nombre": "Mexicali",
+    "descripcion": "Mexicali es la capital de Baja California, una ciudad fronteriza con ambiente moderno, desértico y una fuerte mezcla cultural.",
+    "gastronomia": "En Mexicali es muy famosa la comida china, además de carne asada, tacos, mariscos y cerveza artesanal.",
+    "ruta": "Una ruta puede iniciar en el centro cívico, visitar museos locales, probar comida china tradicional y terminar con una salida al Valle de Mexicali.",
+    "lugares": "Lugares recomendados son el Bosque y Zoológico de la Ciudad, el Museo Sol del Niño, el centro histórico y el Valle de Mexicali.",
+    "pueblosMagicos": "En Baja California puedes visitar Tecate, Pueblo Mágico reconocido por su pan, cerveza, montañas y ambiente tranquilo."
+  },
+  "tijuana": {
+    "nombre": "Tijuana",
+    "descripcion": "Tijuana es una ciudad fronteriza dinámica, conocida por su vida cultural, gastronomía, arte urbano y cercanía con Estados Unidos.",
+    "gastronomia": "En Tijuana prueba tacos de carne asada, tacos de adobada, comida Baja Med, mariscos y cerveza artesanal.",
+    "ruta": "Puedes iniciar en la Avenida Revolución, visitar el CECUT, recorrer Pasaje Rodríguez y terminar en Playas de Tijuana.",
+    "lugares": "Algunos lugares recomendados son la Avenida Revolución, el Centro Cultural Tijuana, Playas de Tijuana y el mercado gastronómico Telefónica Gastro Park.",
+    "pueblosMagicos": "Cerca de Tijuana puedes visitar Tecate, Pueblo Mágico ideal para pan artesanal, cerveza y naturaleza."
+  },
+  "ensenada": {
+    "nombre": "Ensenada",
+    "descripcion": "Ensenada es un destino costero de Baja California famoso por sus paisajes marinos, vinos, mariscos y ambiente relajado.",
+    "gastronomia": "En Ensenada prueba tacos de pescado, mariscos frescos, ceviches, almejas, vinos del Valle de Guadalupe y cerveza artesanal.",
+    "ruta": "Una ruta puede iniciar en el malecón, continuar en La Bufadora, comer tacos de pescado y terminar con una visita al Valle de Guadalupe.",
+    "lugares": "Lugares recomendados son La Bufadora, el malecón, el Mercado Negro, la Ruta del Vino y el Valle de Guadalupe.",
+    "pueblosMagicos": "Cerca puedes visitar Tecate y también recorrer comunidades vinícolas del Valle de Guadalupe."
+  },
+  "tecate": {
+    "nombre": "Tecate",
+    "descripcion": "Tecate es un Pueblo Mágico de Baja California con ambiente tranquilo, montañas, pan tradicional y cultura cervecera.",
+    "gastronomia": "En Tecate prueba pan dulce tradicional, cerveza artesanal, carne asada y platillos del norte de México.",
+    "ruta": "Puedes empezar en el parque Miguel Hidalgo, visitar panaderías tradicionales, conocer la zona cervecera y terminar con actividades de naturaleza.",
+    "lugares": "Lugares recomendados son el parque Miguel Hidalgo, La Rumorosa, ranchos turísticos y panaderías tradicionales.",
+    "pueblosMagicos": "Tecate es el Pueblo Mágico más representativo de Baja California y combina gastronomía, historia y naturaleza."
+  },
+  "la_paz": {
+    "nombre": "La Paz",
+    "descripcion": "La Paz es la capital de Baja California Sur, famosa por su malecón, playas tranquilas, islas y paisajes del Mar de Cortés.",
+    "gastronomia": "En La Paz prueba almejas chocolatas, tacos de pescado, mariscos, machaca de mantarraya y ceviches frescos.",
+    "ruta": "Una ruta puede iniciar en el malecón, seguir hacia Balandra, visitar El Tecolote y terminar con un recorrido en lancha por la Isla Espíritu Santo.",
+    "lugares": "Lugares recomendados son Playa Balandra, el malecón, Playa El Tecolote, la Isla Espíritu Santo y el Museo de la Ballena.",
+    "pueblosMagicos": "En Baja California Sur puedes visitar Todos Santos, Loreto y Santa Rosalía, destinos con historia, mar y cultura."
+  },
+  "los_cabos": {
+    "nombre": "Los Cabos",
+    "descripcion": "Los Cabos es un destino turístico internacional donde se unen el desierto y el mar, con playas, hoteles, vida nocturna y paisajes únicos.",
+    "gastronomia": "En Los Cabos prueba mariscos frescos, tacos de pescado, ceviche, almejas, cocina de autor y platillos con productos del mar.",
+    "ruta": "Una ruta puede iniciar en Cabo San Lucas, visitar el Arco, recorrer la marina y terminar en San José del Cabo para conocer su centro histórico.",
+    "lugares": "Algunos lugares recomendados son el Arco de Cabo San Lucas, Playa del Amor, la marina, San José del Cabo y el corredor turístico.",
+    "pueblosMagicos": "Cerca puedes visitar Todos Santos, Pueblo Mágico con galerías, playas, historia y ambiente artístico."
+  },
+  "loreto": {
+    "nombre": "Loreto",
+    "descripcion": "Loreto es un Pueblo Mágico costero de Baja California Sur con historia misional, mar tranquilo y paisajes naturales.",
+    "gastronomia": "En Loreto prueba pescado zarandeado, almejas, tacos de pescado, ceviches y platillos con mariscos frescos.",
+    "ruta": "Puedes iniciar en la misión de Nuestra Señora de Loreto, caminar por el malecón, visitar playas cercanas y hacer un paseo al Parque Nacional Bahía de Loreto.",
+    "lugares": "Lugares recomendados son la Misión de Loreto, el malecón, la Isla Coronado y el Parque Nacional Bahía de Loreto.",
+    "pueblosMagicos": "Además de Loreto, en Baja California Sur puedes visitar Todos Santos y Santa Rosalía."
+  },
+  "todos_santos": {
+    "nombre": "Todos Santos",
+    "descripcion": "Todos Santos es un Pueblo Mágico de Baja California Sur conocido por su ambiente artístico, playas, arquitectura antigua y atardeceres.",
+    "gastronomia": "En Todos Santos prueba mariscos, tacos de pescado, comida orgánica, pan artesanal y platillos con productos locales.",
+    "ruta": "Una ruta puede comenzar en el centro histórico, visitar galerías de arte, conocer la Misión de Todos Santos y terminar en Playa Cerritos.",
+    "lugares": "Lugares recomendados son el centro histórico, galerías de arte, la Misión de Todos Santos, Playa Cerritos y Punta Lobos.",
+    "pueblosMagicos": "Cerca también puedes visitar La Paz y Loreto, destinos ideales para playa, historia y naturaleza."
+  },
+  "san_francisco_de_campeche": {
+    "nombre": "San Francisco de Campeche",
+    "descripcion": "Campeche es una ciudad amurallada con arquitectura colonial, calles coloridas y una gran historia relacionada con piratas y el Golfo de México.",
+    "gastronomia": "En Campeche prueba pan de cazón, camarones al coco, pámpano, chocolomo y dulces tradicionales.",
+    "ruta": "Una buena ruta puede iniciar en el centro histórico, recorrer las murallas, visitar el malecón y terminar en el Fuerte de San Miguel.",
+    "lugares": "Lugares recomendados son la Puerta de Tierra, el malecón, el centro histórico, el Fuerte de San Miguel y la Catedral.",
+    "pueblosMagicos": "En Campeche puedes visitar Isla Aguada, Palizada y Candelaria, ideales para naturaleza, ríos y tranquilidad."
+  },
+  "calakmul": {
+    "nombre": "Calakmul",
+    "descripcion": "Calakmul es una zona arqueológica y reserva natural de Campeche, famosa por sus pirámides mayas y selva tropical.",
+    "gastronomia": "En la región puedes probar comida campechana, platillos con mariscos, tamales, cochinita y comida tradicional maya.",
+    "ruta": "Puedes iniciar temprano hacia la zona arqueológica, recorrer las estructuras principales y complementar con actividades de naturaleza en la reserva.",
+    "lugares": "Lugares recomendados son la zona arqueológica de Calakmul, la Reserva de la Biosfera, Balamkú y comunidades cercanas.",
+    "pueblosMagicos": "Cerca puedes visitar Candelaria y Palizada, pueblos con encanto natural y ambiente tranquilo."
+  },
+  "palizada": {
+    "nombre": "Palizada",
+    "descripcion": "Palizada es un Pueblo Mágico de Campeche con casas coloridas, ríos, tranquilidad y un ambiente tradicional.",
+    "gastronomia": "En Palizada prueba pescado, mariscos de río, tamales, pan dulce, guisos regionales y comida campechana.",
+    "ruta": "Una ruta puede iniciar en el centro, caminar por sus calles coloridas, visitar el malecón y hacer un paseo por el río.",
+    "lugares": "Lugares recomendados son el malecón, el río Palizada, el centro histórico y sus casas con techos de teja.",
+    "pueblosMagicos": "En Campeche también puedes visitar Isla Aguada y Candelaria, ideales para naturaleza y descanso."
+  },
+  "tuxtla_gutierrez": {
+    "nombre": "Tuxtla Gutiérrez",
+    "descripcion": "Tuxtla Gutiérrez es la capital de Chiapas y una buena entrada para conocer naturaleza, cultura zoque y paisajes como el Cañón del Sumidero.",
+    "gastronomia": "En Tuxtla prueba cochito horneado, tamales chiapanecos, sopa de chipilín, tascalate y pozol.",
+    "ruta": "Una ruta puede iniciar en el centro, visitar el Parque de la Marimba y después tomar un recorrido en lancha por el Cañón del Sumidero.",
+    "lugares": "Lugares recomendados son el Parque de la Marimba, el Zoológico Miguel Álvarez del Toro, Chiapa de Corzo y el Cañón del Sumidero.",
+    "pueblosMagicos": "Cerca puedes visitar Chiapa de Corzo, San Cristóbal de las Casas y Comitán, tres destinos con mucha historia y cultura."
+  },
+  "san_cristobal_de_las_casas": {
+    "nombre": "San Cristóbal de las Casas",
+    "descripcion": "San Cristóbal de las Casas es un Pueblo Mágico de Chiapas con calles empedradas, templos, mercados artesanales y fuerte presencia cultural indígena.",
+    "gastronomia": "En San Cristóbal prueba tamales chiapanecos, sopa de pan, café de altura, chocolate artesanal y platillos regionales.",
+    "ruta": "Puedes iniciar en la Catedral, recorrer los andadores, visitar el mercado de artesanías y terminar en el templo de Santo Domingo.",
+    "lugares": "Lugares recomendados son la Catedral, el Andador Eclesiástico, Santo Domingo, Na Bolom y comunidades cercanas como San Juan Chamula.",
+    "pueblosMagicos": "Cerca puedes visitar Chiapa de Corzo y Comitán, además de comunidades tradicionales de los Altos de Chiapas."
+  },
+  "chiapa_de_corzo": {
+    "nombre": "Chiapa de Corzo",
+    "descripcion": "Chiapa de Corzo es un Pueblo Mágico de Chiapas conocido por su fuente colonial, tradiciones, parachicos y cercanía al Cañón del Sumidero.",
+    "gastronomia": "En Chiapa de Corzo prueba cochito horneado, pepita con tasajo, pozol, dulces tradicionales y tamales.",
+    "ruta": "Puedes iniciar en la plaza central, visitar la fuente colonial, recorrer el exconvento y tomar una lancha hacia el Cañón del Sumidero.",
+    "lugares": "Lugares recomendados son la fuente La Pila, el exconvento de Santo Domingo, el río Grijalva y el Cañón del Sumidero.",
+    "pueblosMagicos": "Cerca tienes San Cristóbal de las Casas y Comitán, ideales para historia, cultura y gastronomía chiapaneca."
+  },
+  "palengue": {
+    "nombre": "Palenque",
+    "descripcion": "Palenque es un Pueblo Mágico de Chiapas famoso por su zona arqueológica maya, selva y cascadas cercanas.",
+    "gastronomia": "En Palenque prueba tamales chiapanecos, pescado, cochito, pozol, café y platillos con sabores del sureste.",
+    "ruta": "Una ruta puede iniciar en la zona arqueológica de Palenque, seguir a las cascadas de Misol-Ha y terminar en Agua Azul.",
+    "lugares": "Lugares recomendados son la zona arqueológica de Palenque, Misol-Ha, Agua Azul y el Museo de Sitio Alberto Ruz Lhuillier.",
+    "pueblosMagicos": "Cerca puedes visitar otros destinos chiapanecos como Ocosingo, Comitán y San Cristóbal de las Casas."
+  },
+  "chihuahua": {
+    "nombre": "Chihuahua",
+    "descripcion": "Chihuahua es una ciudad del norte de México con historia revolucionaria, arquitectura, museos y conexión con la Sierra Tarahumara.",
+    "gastronomia": "En Chihuahua prueba carne asada, burritos, machaca, discada, queso menonita y sotol.",
+    "ruta": "Una ruta puede iniciar en la Catedral, visitar el Palacio de Gobierno, conocer el Museo Casa Chihuahua y terminar con una salida hacia la sierra.",
+    "lugares": "Lugares recomendados son la Catedral, el Palacio de Gobierno, Quinta Gameros, Casa Chihuahua y las Grutas Nombre de Dios.",
+    "pueblosMagicos": "En Chihuahua puedes visitar Creel, Casas Grandes, Batopilas y Guachochi, ideales para naturaleza, historia y cultura rarámuri."
+  },
+  "ciudad_juarez": {
+    "nombre": "Ciudad Juárez",
+    "descripcion": "Ciudad Juárez es una ciudad fronteriza con historia, museos, cultura urbana y una importante vida comercial.",
+    "gastronomia": "En Ciudad Juárez prueba burritos, carne asada, tacos, gorditas, comida norteña y platillos fronterizos.",
+    "ruta": "Puedes iniciar en el Museo de la Revolución en la Frontera, visitar la Catedral, caminar por el centro y conocer sitios culturales.",
+    "lugares": "Lugares recomendados son el Museo de la Revolución en la Frontera, la Catedral, el Parque Central y el Monumento a la Mexicanidad.",
+    "pueblosMagicos": "Dentro del estado puedes visitar Casas Grandes y Creel, ambos con historia, cultura y paisajes naturales."
+  },
+  "creel": {
+    "nombre": "Creel",
+    "descripcion": "Creel es un Pueblo Mágico de Chihuahua y una de las puertas principales a las Barrancas del Cobre y la Sierra Tarahumara.",
+    "gastronomia": "En Creel prueba comida rarámuri, carne seca, caldos, tortillas de harina, queso menonita y platillos serranos.",
+    "ruta": "Una ruta puede iniciar en el centro de Creel, visitar el Valle de los Hongos y las Ranas, conocer el lago de Arareko y continuar hacia las Barrancas del Cobre.",
+    "lugares": "Lugares recomendados son el lago de Arareko, el Valle de los Hongos y las Ranas, la misión de San Ignacio y las Barrancas del Cobre.",
+    "pueblosMagicos": "Cerca puedes visitar Batopilas y Guachochi, también relacionados con la Sierra Tarahumara y paisajes naturales."
+  },
+  "casas_grandes": {
+    "nombre": "Casas Grandes",
+    "descripcion": "Casas Grandes es un Pueblo Mágico de Chihuahua relacionado con la cultura de Paquimé, historia arqueológica y tradiciones del norte.",
+    "gastronomia": "En Casas Grandes prueba carne asada, queso menonita, burritos, gorditas y comida norteña.",
+    "ruta": "Puedes iniciar en la zona arqueológica de Paquimé, visitar el museo de sitio y recorrer talleres de cerámica de Mata Ortiz.",
+    "lugares": "Lugares recomendados son Paquimé, el Museo de las Culturas del Norte y la comunidad de Mata Ortiz.",
+    "pueblosMagicos": "En Chihuahua también puedes visitar Creel, Batopilas y Guachochi para experiencias de sierra y cultura."
+  },
+  "saltillo": {
+    "nombre": "Saltillo",
+    "descripcion": "Saltillo es la capital de Coahuila, conocida por su arquitectura, museos, tradición del sarape y cercanía a zonas desérticas y boscosas.",
+    "gastronomia": "En Saltillo prueba cabrito, carne asada, pan de pulque, enchiladas rojas, dulces de leche y vinos de la región.",
+    "ruta": "Una ruta puede iniciar en la Catedral, continuar por el Museo del Desierto, visitar el centro histórico y terminar en Arteaga.",
+    "lugares": "Lugares recomendados son el Museo del Desierto, la Catedral de Santiago, el Palacio de Gobierno y la Alameda Zaragoza.",
+    "pueblosMagicos": "Cerca puedes visitar Arteaga, ideal para bosque y cabañas, además de Parras de la Fuente y Cuatro Ciénegas."
+  },
+  "torreon": {
+    "nombre": "Torreón",
+    "descripcion": "Torreón es una ciudad de La Laguna con vida comercial, cultura, desierto y monumentos representativos como el Cristo de las Noas.",
+    "gastronomia": "En Torreón prueba carne asada, gorditas laguneras, pan francés, discada, cabrito y vinos de Coahuila.",
+    "ruta": "Una ruta puede iniciar en el Cristo de las Noas, continuar por el centro, visitar museos y terminar con gastronomía lagunera.",
+    "lugares": "Lugares recomendados son el Cristo de las Noas, el Canal de la Perla, el Museo Arocena y la Plaza Mayor.",
+    "pueblosMagicos": "En Coahuila puedes visitar Parras de la Fuente, Cuatro Ciénegas, Arteaga y Viesca."
+  },
+  "parras_de_la_fuente": {
+    "nombre": "Parras de la Fuente",
+    "descripcion": "Parras de la Fuente es un Pueblo Mágico de Coahuila famoso por sus viñedos, historia y paisajes semidesérticos.",
+    "gastronomia": "En Parras prueba vinos regionales, dulces de nuez, carne asada, cabrito y comida norteña.",
+    "ruta": "Puedes iniciar en el centro histórico, visitar viñedos, conocer la Casa Madero y terminar en la iglesia del Santo Madero.",
+    "lugares": "Lugares recomendados son Casa Madero, la plaza principal, el Estanque de la Luz y la iglesia del Santo Madero.",
+    "pueblosMagicos": "Cerca puedes visitar Arteaga, Viesca y Cuatro Ciénegas, cada uno con atractivos naturales y culturales."
+  },
+  "cuatro_cienegas": {
+    "nombre": "Cuatro Ciénegas",
+    "descripcion": "Cuatro Ciénegas es un Pueblo Mágico de Coahuila reconocido por sus pozas, dunas, biodiversidad y paisajes únicos en el desierto.",
+    "gastronomia": "En Cuatro Ciénegas prueba carne asada, cabrito, quesos, vinos regionales y platillos norteños.",
+    "ruta": "Una ruta puede comenzar en el centro, seguir hacia las pozas, visitar las dunas de yeso y terminar con un recorrido por viñedos.",
+    "lugares": "Lugares recomendados son las pozas, las dunas de yeso, el centro histórico y el Museo Casa Carranza.",
+    "pueblosMagicos": "En Coahuila también puedes visitar Parras de la Fuente, Arteaga y Viesca."
+  },
+  "colima": {
+    "nombre": "Colima",
+    "descripcion": "Colima es una ciudad tranquila con jardines, volcanes cercanos, museos y ambiente cálido del occidente de México.",
+    "gastronomia": "En Colima prueba sopitos, pozole seco, tatemado, tuxca, bate y dulces de coco.",
+    "ruta": "Una ruta puede iniciar en el Jardín Libertad, visitar la Catedral, recorrer museos y terminar con una salida hacia Comala.",
+    "lugares": "Lugares recomendados son el Jardín Libertad, la Catedral, el Museo Regional de Historia, Comala y la zona volcánica.",
+    "pueblosMagicos": "Cerca de Colima puedes visitar Comala, Pueblo Mágico famoso por sus portales, ponche y vista al volcán."
+  },
+  "comala": {
+    "nombre": "Comala",
+    "descripcion": "Comala es un Pueblo Mágico de Colima conocido como el pueblo blanco de América, con portales, tradición literaria y vista al volcán.",
+    "gastronomia": "En Comala prueba ponche, pan dulce, tatemado, sopitos, botanas regionales y café.",
+    "ruta": "Puedes iniciar en la plaza principal, comer en los portales, visitar la parroquia y terminar en zonas cercanas con vista al volcán.",
+    "lugares": "Lugares recomendados son los portales, la plaza principal, la parroquia de San Miguel y la ex hacienda de Nogueras.",
+    "pueblosMagicos": "Comala es el Pueblo Mágico más representativo de Colima y se puede complementar con una visita a la ciudad de Colima."
+  },
+  "ciudad_de_mexico": {
+    "nombre": "Ciudad de México",
+    "descripcion": "La Ciudad de México es una de las ciudades más grandes y culturales del país, con museos, zonas arqueológicas, barrios históricos y una enorme oferta gastronómica.",
+    "gastronomia": "En Ciudad de México prueba tacos al pastor, quesadillas, tlacoyos, tamales, tortas, elotes, churros y comida de mercado.",
+    "ruta": "Una buena ruta puede iniciar en el Zócalo, visitar la Catedral y el Templo Mayor, continuar por Bellas Artes y terminar en Chapultepec.",
+    "lugares": "Lugares recomendados son el Zócalo, Bellas Artes, Chapultepec, Coyoacán, Xochimilco, la Basílica de Guadalupe y el Museo Nacional de Antropología.",
+    "pueblosMagicos": "Cerca de Ciudad de México puedes visitar Tepotzotlán, Valle de Bravo, Tepoztlán y Huasca de Ocampo, dependiendo de la ruta que quieras tomar."
+  },
+  "xochimilco": {
+    "nombre": "Xochimilco",
+    "descripcion": "Xochimilco es una zona tradicional de la Ciudad de México famosa por sus canales, trajineras, flores y ambiente festivo.",
+    "gastronomia": "En Xochimilco prueba quesadillas, tlacoyos, elotes, esquites, nieves, antojitos mexicanos y comida de mercado.",
+    "ruta": "Puedes iniciar en un embarcadero, tomar una trajinera por los canales, visitar mercados de plantas y terminar con antojitos tradicionales.",
+    "lugares": "Lugares recomendados son los embarcaderos de trajineras, el mercado de plantas, el centro de Xochimilco y las chinampas.",
+    "pueblosMagicos": "Cerca puedes visitar Tepoztlán, Tepotzotlán o Malinalco como escapadas desde la Ciudad de México."
+  },
+  "coyoacan": {
+    "nombre": "Coyoacán",
+    "descripcion": "Coyoacán es una zona histórica y cultural de la Ciudad de México, famosa por sus plazas, museos, casas antiguas y ambiente bohemio.",
+    "gastronomia": "En Coyoacán prueba tostadas, churros, café, nieves, antojitos mexicanos y comida de mercado.",
+    "ruta": "Una ruta puede iniciar en el Jardín Hidalgo, visitar la Casa Azul, caminar por el centro y terminar en el Mercado de Coyoacán.",
+    "lugares": "Lugares recomendados son la Casa Azul, el Jardín Hidalgo, la Parroquia de San Juan Bautista y el Mercado de Coyoacán.",
+    "pueblosMagicos": "Desde Coyoacán puedes planear salidas a Tepoztlán, Tepotzotlán, Valle de Bravo o Huasca de Ocampo."
+  },
+  "durango": {
+    "nombre": "Durango",
+    "descripcion": "Durango es una ciudad con centro histórico colonial, tradición cinematográfica, montañas cercanas y arquitectura elegante.",
+    "gastronomia": "En Durango prueba caldillo durangueño, gorditas, asado de boda, queso menonita y dulces de leche.",
+    "ruta": "Una ruta puede iniciar en la Catedral, recorrer el Paseo Constitución, visitar el Teleférico y terminar en el Viejo Oeste.",
+    "lugares": "Lugares recomendados son la Catedral, el Teleférico, el Paseo Constitución, el Museo Francisco Villa y el Paseo del Viejo Oeste.",
+    "pueblosMagicos": "En Durango puedes visitar Nombre de Dios y Mapimí, destinos con historia, naturaleza y tradición."
+  },
+  "mapimi": {
+    "nombre": "Mapimí",
+    "descripcion": "Mapimí es un Pueblo Mágico de Durango con historia minera, desierto, puentes colgantes y paisajes antiguos.",
+    "gastronomia": "En Mapimí prueba gorditas, carne seca, asado, queso, dulces regionales y comida norteña.",
+    "ruta": "Puedes iniciar en el centro, visitar antiguas minas, cruzar el puente colgante de Ojuela y recorrer paisajes del semidesierto.",
+    "lugares": "Lugares recomendados son el Puente de Ojuela, las minas antiguas, el centro histórico y paisajes cercanos del desierto.",
+    "pueblosMagicos": "En Durango también puedes visitar Nombre de Dios, famoso por su mezcal y tradición."
+  },
+  "nombre_de_dios": {
+    "nombre": "Nombre de Dios",
+    "descripcion": "Nombre de Dios es un Pueblo Mágico de Durango conocido por sus templos, mezcal, paisajes naturales y tradición colonial.",
+    "gastronomia": "En Nombre de Dios prueba mezcal, gorditas, caldillo durangueño, dulces regionales y comida casera.",
+    "ruta": "Puedes iniciar en el centro histórico, visitar templos antiguos, conocer vinatas de mezcal y terminar en parajes naturales cercanos.",
+    "lugares": "Lugares recomendados son el centro histórico, templos coloniales, vinatas de mezcal y el paraje Los Salones.",
+    "pueblosMagicos": "Cerca también puedes visitar Mapimí y la ciudad de Durango para completar la ruta."
+  },
+  "guanajuato": {
+    "nombre": "Guanajuato",
+    "descripcion": "Guanajuato es una ciudad colonial llena de callejones, túneles, plazas, museos y tradición cultural.",
+    "gastronomia": "En Guanajuato prueba enchiladas mineras, guacamayas, pacholas, nieves y dulces tradicionales.",
+    "ruta": "Una ruta puede iniciar en el Teatro Juárez, seguir por el Jardín de la Unión, subir al Pípila y terminar en el Callejón del Beso.",
+    "lugares": "Lugares recomendados son el Teatro Juárez, el Callejón del Beso, el Monumento al Pípila, la Alhóndiga de Granaditas y el Museo de las Momias.",
+    "pueblosMagicos": "En Guanajuato puedes visitar Dolores Hidalgo, Mineral de Pozos, Jalpa de Cánovas, Salvatierra y Yuriria."
+  },
+  "san_miguel_de_allende": {
+    "nombre": "San Miguel de Allende",
+    "descripcion": "San Miguel de Allende es una ciudad de Guanajuato reconocida por su arquitectura colonial, ambiente artístico, calles coloridas y vida cultural.",
+    "gastronomia": "En San Miguel de Allende prueba enchiladas mineras, tumbagones, comida de autor, nieves artesanales y platillos regionales.",
+    "ruta": "Una buena ruta puede iniciar en la Parroquia de San Miguel Arcángel, caminar por el jardín principal, visitar galerías y terminar en un mirador.",
+    "lugares": "Lugares recomendados son la Parroquia de San Miguel Arcángel, el Jardín Principal, el Instituto Allende, el Mirador y la Fábrica La Aurora.",
+    "pueblosMagicos": "Cerca puedes visitar Dolores Hidalgo, Mineral de Pozos y Comonfort, destinos con historia, artesanías y gastronomía."
+  },
+  "dolores_hidalgo": {
+    "nombre": "Dolores Hidalgo",
+    "descripcion": "Dolores Hidalgo es un Pueblo Mágico de Guanajuato conocido como cuna de la Independencia de México y por su cerámica tradicional.",
+    "gastronomia": "En Dolores Hidalgo prueba nieves de sabores exóticos, enchiladas mineras, carnitas, barbacoa y dulces regionales.",
+    "ruta": "Puedes iniciar en la parroquia de Nuestra Señora de los Dolores, visitar museos históricos, recorrer talleres de talavera y probar nieves en la plaza.",
+    "lugares": "Lugares recomendados son la parroquia principal, el Museo Casa Hidalgo, la plaza central y talleres de cerámica.",
+    "pueblosMagicos": "Cerca puedes visitar San Miguel de Allende, Mineral de Pozos, Comonfort y Guanajuato capital."
+  },
+  "chilpancingo": {
+    "nombre": "Chilpancingo",
+    "descripcion": "Chilpancingo es la capital de Guerrero, una ciudad con historia, museos, plazas y cercanía a destinos naturales y de playa.",
+    "gastronomia": "En Chilpancingo prueba pozole verde, chalupitas, mole guerrerense, barbacoa, tamales nejos y mezcal.",
+    "ruta": "Una ruta puede iniciar en la plaza cívica, visitar museos locales, caminar por el centro y complementar con una salida a pueblos cercanos.",
+    "lugares": "Lugares recomendados son la Plaza Cívica Primer Congreso de Anáhuac, la Catedral, museos regionales y zonas naturales cercanas.",
+    "pueblosMagicos": "En Guerrero puedes visitar Taxco, Ixcateopan de Cuauhtémoc y Zihuatanejo, destinos con historia, plata, playa y cultura."
+  },
+  "acapulco": {
+    "nombre": "Acapulco",
+    "descripcion": "Acapulco es uno de los destinos de playa más conocidos de México, famoso por su bahía, vida nocturna, historia turística y paisajes marinos.",
+    "gastronomia": "En Acapulco prueba pescado a la talla, ceviche, pulpo, mariscos, pozole guerrerense y cocos fríos.",
+    "ruta": "Una ruta puede iniciar en la Costera Miguel Alemán, visitar La Quebrada, recorrer playas y terminar con una cena frente a la bahía.",
+    "lugares": "Lugares recomendados son La Quebrada, Playa Condesa, Pie de la Cuesta, la Isla de la Roqueta y el Fuerte de San Diego.",
+    "pueblosMagicos": "Desde Acapulco puedes planear una visita a Taxco o Zihuatanejo si quieres combinar playa, historia y cultura."
+  },
+  "taxco": {
+    "nombre": "Taxco",
+    "descripcion": "Taxco es un Pueblo Mágico de Guerrero famoso por sus calles empedradas, plata, arquitectura colonial y vistas de montaña.",
+    "gastronomia": "En Taxco prueba jumiles en temporada, pozole, mole rosa, cecina, tamales y dulces típicos.",
+    "ruta": "Puedes iniciar en Santa Prisca, caminar por el centro, visitar talleres de plata, subir al Cristo Monumental y recorrer sus callejones.",
+    "lugares": "Lugares recomendados son la iglesia de Santa Prisca, el Cristo Monumental, el tianguis de plata y las grutas de Cacahuamilpa.",
+    "pueblosMagicos": "En Guerrero también puedes visitar Ixcateopan de Cuauhtémoc y Zihuatanejo."
+  },
+  "zihuatanejo": {
+    "nombre": "Zihuatanejo",
+    "descripcion": "Zihuatanejo es un Pueblo Mágico de Guerrero con playas tranquilas, bahía, ambiente pesquero y estilo relajado.",
+    "gastronomia": "En Zihuatanejo prueba pescado a la talla, mariscos, ceviches, tiritas de pescado y cocina costeña.",
+    "ruta": "Una ruta puede iniciar en el muelle, visitar Playa La Ropa, recorrer el centro y terminar con un atardecer en la bahía.",
+    "lugares": "Lugares recomendados son Playa La Ropa, Playa Las Gatas, el centro, el malecón y la bahía de Zihuatanejo.",
+    "pueblosMagicos": "Zihuatanejo forma parte de los destinos mágicos de Guerrero y se puede complementar con Ixtapa y playas cercanas."
+  },
+  "pachuca": {
+    "nombre": "Pachuca",
+    "descripcion": "En Pachuca, conocida como la Bella Airosa, puedes visitar el Reloj Monumental, el Salón de la Fama del Fútbol y el centro histórico.",
+    "gastronomia": "En Pachuca te recomiendo probar pastes tradicionales, barbacoa de hoyo, mixiotes, escamoles en temporada y pulque.",
+    "ruta": "Una buena ruta en Pachuca puede iniciar en el Reloj Monumental, después visitar el Salón de la Fama del Fútbol y terminar con una visita a Real del Monte.",
+    "lugares": "Algunos lugares recomendados son el Reloj Monumental, el Salón de la Fama del Fútbol, Real del Monte, Huasca de Ocampo y los Prismas Basálticos.",
+    "pueblosMagicos": "Cerca de Pachuca tienes Real del Monte, famoso por su historia minera y sus pastes, Huasca de Ocampo, donde están los Prismas Basálticos, y Mineral del Chico, ideal para naturaleza y aventura."
+  },
+  "huejutla": {
+    "nombre": "Huejutla",
+    "descripcion": "Huejutla de Reyes es una ciudad de la Huasteca Hidalguense con gran riqueza cultural, tradiciones, música, danzas y paisajes verdes.",
+    "gastronomia": "En Huejutla te recomiendo probar zacahuil, enchiladas huastecas, bocoles, cecina, tamales, pemoles y atole de diferentes sabores.",
+    "ruta": "Una buena ruta puede iniciar en el centro de Huejutla, visitar su catedral y mercado, probar comida huasteca y después salir hacia ríos, comunidades y paisajes naturales cercanos.",
+    "lugares": "Algunos lugares recomendados son el centro de Huejutla, la Catedral de Cristo Rey, mercados tradicionales, comunidades huastecas y rutas naturales hacia ríos y cascadas cercanas.",
+    "pueblosMagicos": "Cerca de Huejutla puedes visitar pueblos y destinos huastecos como Huautla, Atlapexco, Yahualica y, más hacia la ruta turística, Huasca de Ocampo, Real del Monte y Mineral del Chico."
+  },
+  "real_del_monte": {
+    "nombre": "Real del Monte",
+    "descripcion": "Real del Monte es un Pueblo Mágico de Hidalgo con pasado minero, calles empedradas, clima frío y una fuerte tradición de pastes.",
+    "gastronomia": "En Real del Monte prueba pastes de papa con carne, mole, frijol, piña, arroz con leche, café y pan tradicional.",
+    "ruta": "Puedes iniciar en el centro, visitar el Panteón Inglés, recorrer museos mineros y terminar probando pastes tradicionales.",
+    "lugares": "Lugares recomendados son el Panteón Inglés, el Museo de Medicina Laboral, minas antiguas, la plaza principal y miradores cercanos.",
+    "pueblosMagicos": "Cerca puedes visitar Huasca de Ocampo, Mineral del Chico y Pachuca para completar una ruta minera y natural."
+  },
+  "huasca_de_ocampo": {
+    "nombre": "Huasca de Ocampo",
+    "descripcion": "Huasca de Ocampo es un Pueblo Mágico de Hidalgo famoso por sus haciendas, bosques, leyendas y los Prismas Basálticos.",
+    "gastronomia": "En Huasca prueba pastes, barbacoa, trucha, quesadillas, pulque y comida tradicional hidalguense.",
+    "ruta": "Una ruta puede iniciar en el centro, visitar los Prismas Basálticos, recorrer haciendas antiguas y terminar en el Bosque de las Truchas.",
+    "lugares": "Lugares recomendados son los Prismas Basálticos, la Hacienda de Santa María Regla, la Hacienda de San Miguel Regla y el Bosque de las Truchas.",
+    "pueblosMagicos": "Cerca puedes visitar Real del Monte y Mineral del Chico, además de Pachuca."
+  },
+  "mineral_del_chico": {
+    "nombre": "Mineral del Chico",
+    "descripcion": "Mineral del Chico es un Pueblo Mágico de Hidalgo rodeado de bosque, montañas y espacios ideales para senderismo y aventura.",
+    "gastronomia": "En Mineral del Chico prueba pastes, trucha, barbacoa, quesadillas, pulque y pan de la región.",
+    "ruta": "Puedes iniciar en el centro del pueblo, caminar por sus calles, visitar miradores y terminar con actividades en el Parque Nacional El Chico.",
+    "lugares": "Lugares recomendados son el Parque Nacional El Chico, Las Ventanas, la Peña del Cuervo, el centro y rutas de senderismo.",
+    "pueblosMagicos": "Cerca puedes visitar Real del Monte y Huasca de Ocampo, formando una ruta de montaña y pueblos mineros."
+  },
+  "guadalajara": {
+    "nombre": "Guadalajara",
+    "descripcion": "Guadalajara es la capital de Jalisco, reconocida por el mariachi, el tequila, su arquitectura, museos y tradición tapatía.",
+    "gastronomia": "En Guadalajara prueba tortas ahogadas, birria, carne en su jugo, jericallas, pozole y tequila.",
+    "ruta": "Una ruta puede iniciar en el centro histórico, visitar la Catedral, el Hospicio Cabañas, caminar por Tlaquepaque y terminar con mariachi.",
+    "lugares": "Lugares recomendados son la Catedral, el Hospicio Cabañas, el Teatro Degollado, Tlaquepaque, Tonalá y Zapopan.",
+    "pueblosMagicos": "Cerca puedes visitar Tequila, Tapalpa, Mazamitla, Ajijic y Lagos de Moreno, ideales para cultura, naturaleza y gastronomía."
+  },
+  "tequila": {
+    "nombre": "Tequila",
+    "descripcion": "Tequila es un Pueblo Mágico de Jalisco famoso por sus campos de agave, destilerías y tradición tequilera.",
+    "gastronomia": "En Tequila prueba birria, cantaritos, tequila, antojitos jaliscienses, tacos y platillos con agave.",
+    "ruta": "Puedes iniciar en la plaza principal, visitar una destilería, recorrer campos de agave y terminar con una degustación responsable.",
+    "lugares": "Lugares recomendados son la plaza principal, destilerías, campos de agave, el Museo Nacional del Tequila y miradores cercanos.",
+    "pueblosMagicos": "Cerca de Guadalajara también puedes visitar Tlaquepaque, Tapalpa, Mazamitla y Ajijic."
+  },
+  "puerto_vallarta": {
+    "nombre": "Puerto Vallarta",
+    "descripcion": "Puerto Vallarta es un destino de playa en Jalisco con malecón, bahía, arte, vida nocturna y paisajes de mar y montaña.",
+    "gastronomia": "En Puerto Vallarta prueba pescado embarazado, ceviches, mariscos, tacos de camarón, raicilla y cocina costeña.",
+    "ruta": "Una ruta puede iniciar en el malecón, visitar la iglesia de Guadalupe, caminar por la Zona Romántica y terminar en Playa Los Muertos.",
+    "lugares": "Lugares recomendados son el malecón, Playa Los Muertos, la Zona Romántica, Mismaloya y las Islas Marietas.",
+    "pueblosMagicos": "Cerca puedes visitar Mascota, Talpa de Allende y San Sebastián del Oeste, pueblos serranos con mucha tradición."
+  },
+  "toluca": {
+    "nombre": "Toluca",
+    "descripcion": "Toluca es la capital del Estado de México, conocida por su centro histórico, portales, museos, parques y cercanía al Nevado de Toluca.",
+    "gastronomia": "En Toluca prueba chorizo verde y rojo, tacos de plaza, tortas, dulces de alfeñique y mosquitos, una bebida tradicional.",
+    "ruta": "Una ruta puede iniciar en los Portales, visitar la Catedral, el Cosmovitral y terminar con una salida al Nevado de Toluca.",
+    "lugares": "Lugares recomendados son los Portales, el Cosmovitral, la Catedral, el Museo de Bellas Artes y el Nevado de Toluca.",
+    "pueblosMagicos": "Cerca puedes visitar Metepec, Valle de Bravo, Malinalco, Ixtapan de la Sal y El Oro."
+  },
+  "valle_de_bravo": {
+    "nombre": "Valle de Bravo",
+    "descripcion": "Valle de Bravo es un Pueblo Mágico del Estado de México con lago, bosque, deportes de aventura y calles con encanto.",
+    "gastronomia": "En Valle de Bravo prueba trucha, antojitos mexicanos, pan artesanal, nieve, café y comida de montaña.",
+    "ruta": "Puedes iniciar en el centro, visitar la parroquia, caminar al embarcadero, pasear por el lago y terminar en la cascada Velo de Novia.",
+    "lugares": "Lugares recomendados son el lago, el centro, la cascada Velo de Novia, Avándaro y miradores naturales.",
+    "pueblosMagicos": "Cerca puedes visitar Malinalco, Metepec y El Oro para una ruta de pueblos mágicos mexiquenses."
+  },
+  "morelia": {
+    "nombre": "Morelia",
+    "descripcion": "Morelia es la capital de Michoacán, famosa por su centro histórico de cantera rosa, acueducto, catedral y tradición cultural.",
+    "gastronomia": "En Morelia prueba enchiladas placeras, corundas, uchepos, sopa tarasca, gazpacho moreliano y ate.",
+    "ruta": "Una ruta puede iniciar en la Catedral, recorrer el centro histórico, visitar el acueducto y terminar probando dulces en el mercado.",
+    "lugares": "Lugares recomendados son la Catedral, el Acueducto, el Callejón del Romance, el Jardín de las Rosas y el Mercado de Dulces.",
+    "pueblosMagicos": "Cerca puedes visitar Pátzcuaro, Tzintzuntzan, Santa Clara del Cobre y Cuitzeo."
+  },
+  "patzcuaro": {
+    "nombre": "Pátzcuaro",
+    "descripcion": "Pátzcuaro es un Pueblo Mágico de Michoacán con tradición purépecha, plazas coloniales, lago y artesanías.",
+    "gastronomia": "En Pátzcuaro prueba sopa tarasca, corundas, uchepos, pescado blanco, atole, charales y dulces regionales.",
+    "ruta": "Puedes iniciar en la Plaza Vasco de Quiroga, visitar templos antiguos, recorrer mercados artesanales y tomar una lancha hacia Janitzio.",
+    "lugares": "Lugares recomendados son la Plaza Vasco de Quiroga, la Basílica de Nuestra Señora de la Salud, el lago de Pátzcuaro y Janitzio.",
+    "pueblosMagicos": "Cerca puedes visitar Tzintzuntzan, Santa Clara del Cobre y Cuitzeo."
+  },
+  "cuernavaca": {
+    "nombre": "Cuernavaca",
+    "descripcion": "Cuernavaca es la capital de Morelos, conocida como la ciudad de la eterna primavera por su clima agradable, jardines y sitios históricos.",
+    "gastronomia": "En Cuernavaca prueba cecina, tacos acorazados, itacates, mole verde, quesadillas y nieves artesanales.",
+    "ruta": "Una ruta puede iniciar en el Palacio de Cortés, visitar la Catedral, recorrer jardines y terminar con una salida a Tepoztlán.",
+    "lugares": "Lugares recomendados son el Palacio de Cortés, la Catedral, el Jardín Borda, la Robert Brady y balnearios cercanos.",
+    "pueblosMagicos": "Cerca puedes visitar Tepoztlán, Tlayacapan y Xochitepec, ideales para cultura, naturaleza y gastronomía."
+  },
+  "tepoztlan": {
+    "nombre": "Tepoztlán",
+    "descripcion": "Tepoztlán es un Pueblo Mágico de Morelos famoso por el cerro del Tepozteco, su mercado, tradiciones y ambiente místico.",
+    "gastronomia": "En Tepoztlán prueba itacates, cecina, quesadillas, tlacoyos, nieves de sabores y comida de mercado.",
+    "ruta": "Puedes iniciar en el mercado, caminar por el centro, visitar el exconvento y subir al Tepozteco si quieres una actividad de aventura.",
+    "lugares": "Lugares recomendados son el Tepozteco, el mercado, el exconvento de la Natividad y sus calles del centro.",
+    "pueblosMagicos": "Cerca puedes visitar Tlayacapan, Xochitepec y Cuernavaca."
+  },
+  "tepic": {
+    "nombre": "Tepic",
+    "descripcion": "Tepic es la capital de Nayarit, una ciudad con historia, arte, gastronomía y cercanía a playas y zonas naturales.",
+    "gastronomia": "En Tepic prueba pescado zarandeado, ceviches, tamales de camarón, mariscos, ostiones y dulces regionales.",
+    "ruta": "Una ruta puede iniciar en la Catedral, visitar museos, caminar por el centro y terminar con una salida hacia San Blas o la Riviera Nayarit.",
+    "lugares": "Lugares recomendados son la Catedral, el Museo Regional, la Loma, el centro histórico y la laguna de Santa María del Oro.",
+    "pueblosMagicos": "En Nayarit puedes visitar Jala, Compostela, Sayulita, Mexcaltitán y San Blas."
+  },
+  "sayulita": {
+    "nombre": "Sayulita",
+    "descripcion": "Sayulita es un Pueblo Mágico de Nayarit con ambiente surfero, playas, arte, vida relajada y calles coloridas.",
+    "gastronomia": "En Sayulita prueba tacos de pescado, ceviche, mariscos, aguas frescas, café y comida playera.",
+    "ruta": "Puedes iniciar en la plaza principal, caminar a la playa, tomar una clase de surf y terminar con comida frente al mar.",
+    "lugares": "Lugares recomendados son la playa principal, Playa Los Muertos, el centro, galerías y tiendas artesanales.",
+    "pueblosMagicos": "Cerca puedes visitar San Blas, Compostela y Jala para complementar la ruta por Nayarit."
+  },
+  "monterrey": {
+    "nombre": "Monterrey",
+    "descripcion": "Monterrey es una ciudad moderna rodeada de montañas, con parques, museos, vida industrial y paisajes naturales como la Huasteca.",
+    "gastronomia": "En Monterrey prueba cabrito, carne asada, machacado con huevo, frijoles con veneno, glorias y cerveza artesanal.",
+    "ruta": "Una ruta puede iniciar en Macroplaza, visitar el Paseo Santa Lucía, recorrer Fundidora y terminar con una vista al Cerro de la Silla.",
+    "lugares": "Lugares recomendados son Parque Fundidora, Paseo Santa Lucía, Macroplaza, Barrio Antiguo, Chipinque y La Huasteca.",
+    "pueblosMagicos": "Cerca puedes visitar Santiago, Bustamante y Linares, ideales para naturaleza, dulces y tradición norteña."
+  },
+  "santiago_nuevo_leon": {
+    "nombre": "Santiago, Nuevo León",
+    "descripcion": "Santiago es un Pueblo Mágico cercano a Monterrey, conocido por su presa, cascadas, arquitectura tradicional y naturaleza.",
+    "gastronomia": "En Santiago prueba cabrito, carne asada, machacado, dulces regionales, pan de elote y comida norteña.",
+    "ruta": "Puedes iniciar en el centro histórico, visitar la presa La Boca, recorrer la Cola de Caballo y terminar en miradores naturales.",
+    "lugares": "Lugares recomendados son la Presa La Boca, la Cascada Cola de Caballo, el centro histórico y la Sierra Madre Oriental.",
+    "pueblosMagicos": "En Nuevo León también puedes visitar Bustamante y Linares."
+  },
+  "oaxaca": {
+    "nombre": "Oaxaca",
+    "descripcion": "Oaxaca de Juárez es una ciudad cultural con arquitectura colonial, mercados, mezcal, arte, zonas arqueológicas y una de las gastronomías más reconocidas de México.",
+    "gastronomia": "En Oaxaca prueba mole negro, tlayudas, memelas, tasajo, chapulines, quesillo, chocolate y mezcal.",
+    "ruta": "Una ruta puede iniciar en el Zócalo, visitar Santo Domingo, recorrer mercados, conocer Monte Albán y terminar con una degustación de mezcal.",
+    "lugares": "Lugares recomendados son Santo Domingo, el Zócalo, Monte Albán, el Mercado 20 de Noviembre, Hierve el Agua y Tule.",
+    "pueblosMagicos": "Cerca puedes visitar Mitla, Teotitlán del Valle, Mazunte, Capulálpam de Méndez y San Pablo Villa de Mitla."
+  },
+  "puerto_escondido": {
+    "nombre": "Puerto Escondido",
+    "descripcion": "Puerto Escondido es un destino de playa en Oaxaca famoso por el surf, atardeceres, vida relajada y playas de gran belleza.",
+    "gastronomia": "En Puerto Escondido prueba pescado, mariscos, tlayudas, mole, ceviches, café oaxaqueño y mezcal.",
+    "ruta": "Una ruta puede iniciar en Playa Zicatela, visitar Carrizalillo, pasear por la bahía principal y terminar con bioluminiscencia en Manialtepec.",
+    "lugares": "Lugares recomendados son Playa Zicatela, Carrizalillo, Puerto Angelito, Manialtepec y Mazunte.",
+    "pueblosMagicos": "Cerca puedes visitar Mazunte, Pueblo Mágico costero con playas, tortugas y ambiente relajado."
+  },
+  "puebla": {
+    "nombre": "Puebla",
+    "descripcion": "Puebla es una ciudad colonial famosa por su arquitectura, talavera, iglesias, historia y una gastronomía muy importante en México.",
+    "gastronomia": "En Puebla prueba mole poblano, chiles en nogada, cemitas, chalupas, molotes, camotes y dulces típicos.",
+    "ruta": "Una ruta puede iniciar en el Zócalo, visitar la Catedral, recorrer el Callejón de los Sapos y terminar en Cholula.",
+    "lugares": "Lugares recomendados son la Catedral, el Zócalo, la Biblioteca Palafoxiana, el Callejón de los Sapos, los Fuertes y Cholula.",
+    "pueblosMagicos": "Cerca puedes visitar Cholula, Atlixco, Zacatlán, Chignahuapan, Cuetzalan y Tlatlauquitepec."
+  },
+  "cholula": {
+    "nombre": "Cholula",
+    "descripcion": "Cholula es un Pueblo Mágico de Puebla conocido por su gran pirámide, iglesias, ambiente universitario y vista a los volcanes.",
+    "gastronomia": "En Cholula prueba cemitas, chalupas, molotes, cacao, antojitos poblanos y comida tradicional.",
+    "ruta": "Puedes iniciar en la Gran Pirámide, subir al Santuario de la Virgen de los Remedios, caminar por el centro y visitar San Andrés Cholula.",
+    "lugares": "Lugares recomendados son la Gran Pirámide, el Santuario de los Remedios, el centro de San Pedro Cholula y Container City.",
+    "pueblosMagicos": "Cerca puedes visitar Atlixco, Zacatlán, Chignahuapan y Cuetzalan."
+  },
+  "queretaro": {
+    "nombre": "Querétaro",
+    "descripcion": "Querétaro es una ciudad colonial con acueducto, centro histórico, plazas, museos y gran importancia en la historia de México.",
+    "gastronomia": "En Querétaro prueba enchiladas queretanas, gorditas de migajas, carnitas, barbacoa, nieve de mantecado y vinos regionales.",
+    "ruta": "Una ruta puede iniciar en el Acueducto, caminar por el centro histórico, visitar plazas y terminar en la Peña de Bernal.",
+    "lugares": "Lugares recomendados son el Acueducto, el centro histórico, el Templo de Santa Rosa de Viterbo, Plaza de Armas y el Cerro de las Campanas.",
+    "pueblosMagicos": "Cerca puedes visitar Bernal, Tequisquiapan, Cadereyta, Jalpan de Serra, Amealco y San Joaquín."
+  },
+  "bernal": {
+    "nombre": "Bernal",
+    "descripcion": "Bernal es un Pueblo Mágico de Querétaro famoso por la Peña de Bernal, una gran formación rocosa ideal para caminar y disfrutar vistas.",
+    "gastronomia": "En Bernal prueba gorditas de maíz quebrado, barbacoa, enchiladas queretanas, dulces de leche y vinos regionales.",
+    "ruta": "Puedes iniciar en el centro, caminar hacia la Peña, recorrer tiendas artesanales y terminar con comida regional.",
+    "lugares": "Lugares recomendados son la Peña de Bernal, el centro histórico, el Museo de la Máscara y viñedos cercanos.",
+    "pueblosMagicos": "Cerca puedes visitar Tequisquiapan, Cadereyta y Querétaro capital."
+  },
+  "cancun": {
+    "nombre": "Cancún",
+    "descripcion": "Cancún es un destino turístico del Caribe mexicano conocido por sus playas de arena blanca, zona hotelera, vida nocturna y acceso a sitios mayas.",
+    "gastronomia": "En Cancún prueba cochinita pibil, panuchos, salbutes, marquesitas, ceviches, pescado tikin xic y mariscos.",
+    "ruta": "Una ruta puede iniciar en la zona hotelera, visitar Playa Delfines, recorrer el centro y hacer una excursión a Isla Mujeres o Chichén Itzá.",
+    "lugares": "Lugares recomendados son Playa Delfines, la zona hotelera, Isla Mujeres, Puerto Morelos, cenotes cercanos y sitios arqueológicos.",
+    "pueblosMagicos": "En Quintana Roo puedes visitar Bacalar, Tulum, Isla Mujeres y Cozumel como destinos mágicos y de playa."
+  },
+  "bacalar": {
+    "nombre": "Bacalar",
+    "descripcion": "Bacalar es un Pueblo Mágico de Quintana Roo famoso por su laguna de siete colores, cenotes y ambiente tranquilo.",
+    "gastronomia": "En Bacalar prueba pescado, mariscos, cochinita pibil, panuchos, salbutes, ceviches y comida yucateca.",
+    "ruta": "Puedes iniciar en la laguna, visitar el Fuerte de San Felipe, recorrer cenotes y terminar con un paseo en lancha.",
+    "lugares": "Lugares recomendados son la Laguna de Bacalar, el Fuerte de San Felipe, el Cenote Azul, los rápidos y canales de la laguna.",
+    "pueblosMagicos": "Cerca puedes visitar Tulum, Isla Mujeres y Cozumel para completar una ruta por Quintana Roo."
+  },
+  "san_luis_potosi": {
+    "nombre": "San Luis Potosí",
+    "descripcion": "San Luis Potosí es una ciudad con arquitectura colonial, plazas, museos y una ubicación ideal para conectar con la Huasteca Potosina.",
+    "gastronomia": "En San Luis Potosí prueba enchiladas potosinas, zacahuil, asado de boda, queso de tuna, gorditas y pulque.",
+    "ruta": "Una ruta puede iniciar en la Plaza de Armas, visitar la Catedral, recorrer museos y planear una salida a la Huasteca Potosina.",
+    "lugares": "Lugares recomendados son la Catedral, la Plaza de Armas, el Centro de las Artes, el Museo Laberinto y la Caja de Agua.",
+    "pueblosMagicos": "En San Luis Potosí puedes visitar Real de Catorce, Xilitla, Aquismón, Santa María del Río y Tierra Nueva."
+  },
+  "xilitla": {
+    "nombre": "Xilitla",
+    "descripcion": "Xilitla es un Pueblo Mágico de San Luis Potosí ubicado en la Huasteca, famoso por el Jardín Surrealista de Edward James y su vegetación.",
+    "gastronomia": "En Xilitla prueba zacahuil, enchiladas huastecas, bocoles, cecina, café, pan y platillos huastecos.",
+    "ruta": "Puedes iniciar en el Jardín Surrealista, recorrer el centro, visitar cascadas cercanas y probar gastronomía huasteca.",
+    "lugares": "Lugares recomendados son el Jardín Surrealista de Edward James, Las Pozas, el centro de Xilitla y cascadas cercanas.",
+    "pueblosMagicos": "Cerca puedes visitar Aquismón y Real de Catorce si quieres combinar naturaleza y cultura."
+  },
+  "culiacan": {
+    "nombre": "Culiacán",
+    "descripcion": "Culiacán es la capital de Sinaloa, una ciudad con gastronomía reconocida, ríos, parques y vida urbana del noroeste mexicano.",
+    "gastronomia": "En Culiacán prueba aguachile, mariscos, chilorio, machaca, tacos gobernador y sushi estilo Sinaloa.",
+    "ruta": "Una ruta puede iniciar en el centro, visitar el Jardín Botánico, recorrer el Parque Las Riberas y terminar con mariscos sinaloenses.",
+    "lugares": "Lugares recomendados son el Jardín Botánico, el Parque Las Riberas, la Catedral y el centro histórico.",
+    "pueblosMagicos": "En Sinaloa puedes visitar El Fuerte, Mocorito, Cosalá, El Rosario y San Ignacio."
+  },
+  "mazatlan": {
+    "nombre": "Mazatlán",
+    "descripcion": "Mazatlán es un destino de playa de Sinaloa con malecón, centro histórico, carnaval, música de banda y atardeceres frente al Pacífico.",
+    "gastronomia": "En Mazatlán prueba aguachile, ceviche, tacos gobernador, pescado zarandeado, camarones y mariscos frescos.",
+    "ruta": "Una ruta puede iniciar en el malecón, subir al faro, recorrer el centro histórico y terminar en la Plazuela Machado.",
+    "lugares": "Lugares recomendados son el malecón, el Faro, Olas Altas, la Plazuela Machado, la Catedral y la Isla de la Piedra.",
+    "pueblosMagicos": "Cerca puedes visitar El Rosario y Cosalá, pueblos con historia, arquitectura y tradición sinaloense."
+  },
+  "hermosillo": {
+    "nombre": "Hermosillo",
+    "descripcion": "Hermosillo es la capital de Sonora, una ciudad del desierto con cultura norteña, carne asada, cerros y cercanía al Mar de Cortés.",
+    "gastronomia": "En Hermosillo prueba carne asada, coyotas, machaca, burritos, frijoles maneados y tortillas de harina.",
+    "ruta": "Una ruta puede iniciar en la Catedral, visitar el Cerro de la Campana, recorrer museos y terminar con carne asada sonorense.",
+    "lugares": "Lugares recomendados son la Catedral, el Cerro de la Campana, el Museo de Arte de Sonora y Bahía de Kino.",
+    "pueblosMagicos": "En Sonora puedes visitar Álamos, Magdalena de Kino, Ures y San Carlos como destinos con historia, playa y naturaleza."
+  },
+  "alamos": {
+    "nombre": "Álamos",
+    "descripcion": "Álamos es un Pueblo Mágico de Sonora con arquitectura colonial, calles tranquilas, historia minera y ambiente cultural.",
+    "gastronomia": "En Álamos prueba carne asada, machaca, coyotas, tortillas de harina, tamales y dulces regionales.",
+    "ruta": "Puedes iniciar en la plaza principal, visitar casonas antiguas, recorrer miradores y disfrutar su ambiente colonial.",
+    "lugares": "Lugares recomendados son la Plaza de Armas, la Parroquia de la Purísima Concepción, casonas antiguas y miradores.",
+    "pueblosMagicos": "En Sonora también puedes visitar Magdalena de Kino y Ures."
+  },
+  "villahermosa": {
+    "nombre": "Villahermosa",
+    "descripcion": "Villahermosa es la capital de Tabasco, una ciudad con parques, lagunas, museos y fuerte identidad tropical.",
+    "gastronomia": "En Villahermosa prueba pejelagarto, puchero tabasqueño, tamales de chipilín, pozol, butifarra y cacao.",
+    "ruta": "Una ruta puede iniciar en el Parque Museo La Venta, visitar la laguna de las Ilusiones, recorrer el centro y probar comida tabasqueña.",
+    "lugares": "Lugares recomendados son el Parque Museo La Venta, la Laguna de las Ilusiones, Yumká, la Catedral y museos locales.",
+    "pueblosMagicos": "En Tabasco puedes visitar Tapijulapa, Pueblo Mágico rodeado de ríos, selva y arquitectura tradicional."
+  },
+  "tapijulapa": {
+    "nombre": "Tapijulapa",
+    "descripcion": "Tapijulapa es un Pueblo Mágico de Tabasco ubicado entre ríos y vegetación, con casas blancas, tejas rojas y ambiente natural.",
+    "gastronomia": "En Tapijulapa prueba pejelagarto, tamales, pozol, puchero, dulces de cacao y comida tabasqueña.",
+    "ruta": "Puedes iniciar en el centro, caminar por sus calles, visitar el templo principal y hacer recorridos por ríos y cuevas cercanas.",
+    "lugares": "Lugares recomendados son el centro, el río Oxolotán, Villa Luz, cuevas y parajes naturales cercanos.",
+    "pueblosMagicos": "Tapijulapa es el Pueblo Mágico más representativo de Tabasco y se puede complementar con Villahermosa."
+  },
+  "ciudad_victoria": {
+    "nombre": "Ciudad Victoria",
+    "descripcion": "Ciudad Victoria es la capital de Tamaulipas, una ciudad rodeada de sierra, museos, parques y ambiente tranquilo.",
+    "gastronomia": "En Ciudad Victoria prueba carne asada, cabrito, machaca, gorditas, jaibas, mariscos y dulces regionales.",
+    "ruta": "Una ruta puede iniciar en el centro, visitar museos, recorrer parques y terminar con una salida hacia la sierra o reservas naturales.",
+    "lugares": "Lugares recomendados son el Museo Tamux, el Zoológico Tamatán, la Catedral y zonas naturales cercanas.",
+    "pueblosMagicos": "En Tamaulipas puedes visitar Tula y Mier, pueblos con historia, arquitectura y tradición del noreste."
+  },
+  "tampico": {
+    "nombre": "Tampico",
+    "descripcion": "Tampico es una ciudad portuaria de Tamaulipas con arquitectura histórica, lagunas, playa cercana y fuerte identidad huasteca.",
+    "gastronomia": "En Tampico prueba tortas de la barda, jaibas rellenas, mariscos, zacahuil, bocoles y enchiladas huastecas.",
+    "ruta": "Una ruta puede iniciar en el centro histórico, visitar la Plaza de Armas, caminar por la laguna del Carpintero y terminar en Playa Miramar.",
+    "lugares": "Lugares recomendados son la Plaza de Armas, la Aduana Marítima, la Laguna del Carpintero y Playa Miramar.",
+    "pueblosMagicos": "Desde Tampico puedes conectar con Tula o con destinos huastecos de San Luis Potosí e Hidalgo."
+  },
+  "tlaxcala": {
+    "nombre": "Tlaxcala",
+    "descripcion": "Tlaxcala es una ciudad pequeña y colonial con historia, murales, plazas, templos y tradiciones muy antiguas.",
+    "gastronomia": "En Tlaxcala prueba mixiotes, escamoles en temporada, mole prieto, tlacoyos, pulque, tacos de canasta y pan de fiesta.",
+    "ruta": "Una ruta puede iniciar en la Plaza de la Constitución, visitar los murales del Palacio de Gobierno, recorrer templos y terminar en Val'Quirico o Cacaxtla.",
+    "lugares": "Lugares recomendados son la Plaza de la Constitución, el Palacio de Gobierno, la Basílica de Ocotlán, Cacaxtla y Val'Quirico.",
+    "pueblosMagicos": "En Tlaxcala puedes visitar Huamantla, Tlaxco e Ixtenco, destinos con historia, haciendas y tradición artesanal."
+  },
+  "huamantla": {
+    "nombre": "Huamantla",
+    "descripcion": "Huamantla es un Pueblo Mágico de Tlaxcala famoso por sus tapetes de aserrín, haciendas, tradiciones y cercanía a La Malinche.",
+    "gastronomia": "En Huamantla prueba muéganos, mixiotes, barbacoa, mole, pulque y antojitos tlaxcaltecas.",
+    "ruta": "Puedes iniciar en el centro, visitar el Museo Nacional del Títere, recorrer haciendas cercanas y terminar con vistas a La Malinche.",
+    "lugares": "Lugares recomendados son el Museo Nacional del Títere, la parroquia, haciendas pulqueras y el Parque Nacional La Malinche.",
+    "pueblosMagicos": "Cerca puedes visitar Tlaxco e Ixtenco, además de la ciudad de Tlaxcala."
+  },
+  "veracruz": {
+    "nombre": "Veracruz",
+    "descripcion": "Veracruz es una ciudad portuaria con malecón, música, historia, café, carnaval y una gran tradición jarocha.",
+    "gastronomia": "En Veracruz prueba arroz a la tumbada, huachinango a la veracruzana, picadas, gorditas, café lechero y mariscos.",
+    "ruta": "Una ruta puede iniciar en el malecón, visitar San Juan de Ulúa, caminar por Los Portales y terminar tomando café lechero.",
+    "lugares": "Lugares recomendados son el malecón, San Juan de Ulúa, Los Portales, el Acuario, Boca del Río y el centro histórico.",
+    "pueblosMagicos": "En Veracruz puedes visitar Orizaba, Xico, Coatepec, Papantla, Coscomatepec y Zozocolco."
+  },
+  "orizaba": {
+    "nombre": "Orizaba",
+    "descripcion": "Orizaba es un Pueblo Mágico de Veracruz rodeado de montañas, con arquitectura histórica, río, teleférico y gran ambiente turístico.",
+    "gastronomia": "En Orizaba prueba picadas, chayotes rellenos, pambazos, café, pan dulce y comida veracruzana.",
+    "ruta": "Puedes iniciar en el centro, visitar el Palacio de Hierro, caminar por el paseo del río y subir al teleférico.",
+    "lugares": "Lugares recomendados son el Palacio de Hierro, el teleférico, el paseo del río Orizaba, el EcoParque y la Catedral.",
+    "pueblosMagicos": "Cerca puedes visitar Córdoba, Coscomatepec y Xico para una ruta de montaña y café."
+  },
+  "xalapa": {
+    "nombre": "Xalapa",
+    "descripcion": "Xalapa es la capital de Veracruz, una ciudad de clima fresco, universidades, museos, café, parques y ambiente cultural.",
+    "gastronomia": "En Xalapa prueba café veracruzano, picadas, pambazos, chiles rellenos, mole, pan dulce y antojitos.",
+    "ruta": "Una ruta puede iniciar en el centro, visitar el Museo de Antropología, caminar por parques y terminar en Coatepec o Xico.",
+    "lugares": "Lugares recomendados son el Museo de Antropología de Xalapa, el Parque Juárez, Los Berros, el centro y jardines cercanos.",
+    "pueblosMagicos": "Cerca puedes visitar Coatepec, Xico y Naolinco, destinos con café, tradición y paisajes verdes."
+  },
+  "merida": {
+    "nombre": "Mérida",
+    "descripcion": "Mérida es la capital de Yucatán, conocida por su arquitectura, seguridad, cultura maya, casonas, mercados y cercanía a cenotes y zonas arqueológicas.",
+    "gastronomia": "En Mérida prueba cochinita pibil, panuchos, salbutes, sopa de lima, papadzules, relleno negro, marquesitas y poc chuc.",
+    "ruta": "Una ruta puede iniciar en la Plaza Grande, visitar la Catedral, caminar por Paseo de Montejo y terminar con una salida a cenotes o Chichén Itzá.",
+    "lugares": "Lugares recomendados son la Plaza Grande, Paseo de Montejo, el Gran Museo del Mundo Maya, mercados, cenotes y zonas arqueológicas cercanas.",
+    "pueblosMagicos": "En Yucatán puedes visitar Izamal, Valladolid, Maní, Sisal, Motul, Espita y Tekax."
+  },
+  "valladolid": {
+    "nombre": "Valladolid",
+    "descripcion": "Valladolid es un Pueblo Mágico de Yucatán con calles coloniales, cenotes, comida yucateca y cercanía a Chichén Itzá.",
+    "gastronomia": "En Valladolid prueba lomitos, cochinita pibil, longaniza, panuchos, salbutes, marquesitas y helados artesanales.",
+    "ruta": "Puedes iniciar en la plaza principal, visitar el convento de San Bernardino, nadar en un cenote y terminar en Chichén Itzá.",
+    "lugares": "Lugares recomendados son el Cenote Zací, el convento de San Bernardino, la Calzada de los Frailes y Chichén Itzá.",
+    "pueblosMagicos": "Cerca puedes visitar Izamal, Maní y otros destinos yucatecos llenos de historia."
+  },
+  "zacatecas": {
+    "nombre": "Zacatecas",
+    "descripcion": "Zacatecas es una ciudad colonial con cantera rosa, minas, callejones, museos y una vista espectacular desde el Cerro de la Bufa.",
+    "gastronomia": "En Zacatecas prueba asado de boda, enchiladas zacatecanas, gorditas, birria, queso de tuna y mezcal.",
+    "ruta": "Una ruta puede iniciar en la Catedral, caminar por el centro, visitar la Mina El Edén, subir al teleférico y terminar en el Cerro de la Bufa.",
+    "lugares": "Lugares recomendados son la Catedral, la Mina El Edén, el teleférico, el Cerro de la Bufa, el Museo Rafael Coronel y el centro histórico.",
+    "pueblosMagicos": "En Zacatecas puedes visitar Jerez, Nochistlán, Sombrerete, Pinos, Guadalupe y Teúl de González Ortega."
+  },
+  "jerez": {
+    "nombre": "Jerez",
+    "descripcion": "Jerez es un Pueblo Mágico de Zacatecas con música, tamborazo, calles tranquilas, jardines y ambiente tradicional.",
+    "gastronomia": "En Jerez prueba asado de boda, tostadas, birria, gorditas, nieves y dulces típicos.",
+    "ruta": "Puedes iniciar en el Jardín Rafael Páez, visitar el Santuario de la Soledad, recorrer portales y disfrutar música tradicional.",
+    "lugares": "Lugares recomendados son el Jardín Rafael Páez, el Teatro Hinojosa, el Santuario de la Soledad y el centro histórico.",
+    "pueblosMagicos": "Cerca puedes visitar Zacatecas capital, Guadalupe y Nochistlán."
+  },
+  "tulum": {
+  "nombre": "Tulum",
+  "descripcion": "Tulum es uno de los destinos más visitados de Quintana Roo, famoso por sus playas de arena blanca, su zona arqueológica frente al mar y sus cenotes cercanos.",
+  "gastronomia": "En Tulum puedes probar pescado fresco, ceviches, tacos de mariscos, cochinita pibil y platillos yucatecos con influencia caribeña.",
+  "ruta": "Una buena ruta en Tulum puede iniciar en la zona arqueológica, continuar en Playa Paraíso y terminar con una visita a un cenote como Gran Cenote o Dos Ojos.",
+  "lugares": "Algunos lugares recomendados son la Zona Arqueológica de Tulum, Playa Paraíso, Gran Cenote, Cenote Dos Ojos y la Reserva de Sian Ka'an.",
+  "pueblosMagicos": "Cerca de Tulum puedes visitar Valladolid, un Pueblo Mágico de Yucatán con cenotes, arquitectura colonial y gastronomía tradicional."
+},
+"isla_mujeres": {
+  "nombre": "Isla Mujeres",
+  "descripcion": "Isla Mujeres es un destino caribeño ideal para relajarse, nadar en aguas cristalinas y disfrutar de paisajes naturales frente a Cancún.",
+  "gastronomia": "En Isla Mujeres te recomiendo probar pescado tikin xic, ceviche, mariscos frescos y platillos caribeños.",
+  "ruta": "Una buena ruta puede iniciar en Playa Norte, después visitar Punta Sur y terminar recorriendo el centro de la isla.",
+  "lugares": "Algunos lugares recomendados son Playa Norte, Punta Sur, el Parque Garrafón y el malecón.",
+  "pueblosMagicos": "Cerca de Isla Mujeres puedes visitar Bacalar, Pueblo Mágico conocido por la Laguna de los Siete Colores."
+},
+"cozumel": {
+  "nombre": "Cozumel",
+  "descripcion": "Cozumel es una isla de Quintana Roo reconocida por sus arrecifes, actividades de buceo, playas y ambiente caribeño.",
+  "gastronomia": "En Cozumel puedes probar mariscos, ceviches, pescado a la talla, cochinita pibil y platillos con influencia yucateca.",
+  "ruta": "Una buena ruta puede iniciar en el malecón de San Miguel, continuar con una visita a los arrecifes y terminar en Playa El Cielo.",
+  "lugares": "Algunos lugares recomendados son El Cielo, Parque Chankanaab, Punta Sur, San Gervasio y el malecón.",
+  "pueblosMagicos": "Cerca de Cozumel puedes visitar Tulum y Valladolid para combinar playas, arqueología y cultura colonial."
+},
+"chetumal": {
+  "nombre": "Chetumal",
+  "descripcion": "Chetumal es la capital de Quintana Roo, una ciudad tranquila con historia, bahía, museos y cercanía con Bacalar.",
+  "gastronomia": "En Chetumal puedes probar mariscos, panuchos, salbutes, cochinita pibil y platillos con influencia caribeña.",
+  "ruta": "Una buena ruta puede iniciar en el Boulevard Bahía, después visitar el Museo de la Cultura Maya y terminar con una escapada a Bacalar.",
+  "lugares": "Algunos lugares recomendados son el Boulevard Bahía, el Museo de la Cultura Maya, la Explanada de la Bandera y la zona cercana a Bacalar.",
+  "pueblosMagicos": "Muy cerca de Chetumal se encuentra Bacalar, Pueblo Mágico famoso por su laguna de tonos azules."
+},
+"holbox": {
+  "nombre": "Holbox",
+  "descripcion": "Holbox es una isla de Quintana Roo con ambiente relajado, playas tranquilas, calles de arena y paisajes naturales ideales para descansar.",
+  "gastronomia": "En Holbox puedes probar pizza de langosta, ceviches, mariscos frescos, pescado y platillos caribeños.",
+  "ruta": "Una buena ruta puede iniciar en el centro de Holbox, continuar en Punta Mosquito y terminar viendo el atardecer en la playa.",
+  "lugares": "Algunos lugares recomendados son Punta Mosquito, Punta Cocos, el centro de Holbox y sus playas principales.",
+  "pueblosMagicos": "Cerca de Holbox puedes visitar Valladolid, Pueblo Mágico con cenotes, calles coloniales y gastronomía yucateca."
+},
+"izamal": {
+  "nombre": "Izamal",
+  "descripcion": "Izamal es un Pueblo Mágico de Yucatán conocido como la Ciudad Amarilla, famoso por sus calles coloniales, convento y vestigios mayas.",
+  "gastronomia": "En Izamal puedes probar cochinita pibil, papadzules, panuchos, salbutes y dulces tradicionales yucatecos.",
+  "ruta": "Una buena ruta puede iniciar en el Convento de San Antonio de Padua, después recorrer el centro histórico y visitar las pirámides mayas cercanas.",
+  "lugares": "Algunos lugares recomendados son el Convento de San Antonio de Padua, la Pirámide Kinich Kakmó y el centro histórico.",
+  "pueblosMagicos": "Izamal es Pueblo Mágico y se puede combinar con Valladolid y Maní para una ruta cultural por Yucatán."
+},
+"mani": {
+  "nombre": "Maní",
+  "descripcion": "Maní es un Pueblo Mágico de Yucatán con gran valor histórico, conventos, tranquilidad y tradición gastronómica.",
+  "gastronomia": "En Maní te recomiendo probar el poc chuc, además de panuchos, salbutes, cochinita pibil y comida tradicional yucateca.",
+  "ruta": "Una buena ruta puede iniciar en el ex convento de San Miguel Arcángel, después recorrer el centro y terminar comiendo poc chuc tradicional.",
+  "lugares": "Algunos lugares recomendados son el ex convento de San Miguel Arcángel, el centro histórico y los restaurantes tradicionales.",
+  "pueblosMagicos": "Maní es Pueblo Mágico y puede visitarse junto con Izamal y Valladolid."
+},
+"celestun": {
+  "nombre": "Celestún",
+  "descripcion": "Celestún es un destino costero de Yucatán famoso por su reserva natural, manglares y avistamiento de flamencos.",
+  "gastronomia": "En Celestún puedes probar pescado frito, ceviches, camarones, pulpo y mariscos frescos.",
+  "ruta": "Una buena ruta puede iniciar con un paseo en lancha por la reserva, después visitar la playa y terminar comiendo mariscos frente al mar.",
+  "lugares": "Algunos lugares recomendados son la Reserva de la Biosfera Ría Celestún, la playa y los manglares.",
+  "pueblosMagicos": "Cerca de Celestún puedes visitar Maní o Izamal, Pueblos Mágicos con historia y gastronomía yucateca."
+},
+"papantla": {
+  "nombre": "Papantla",
+  "descripcion": "Papantla es una ciudad de Veracruz reconocida por la vainilla, la tradición de los Voladores y su cercanía con la zona arqueológica de El Tajín.",
+  "gastronomia": "En Papantla puedes probar mole, tamales, zacahuil, vainilla artesanal y comida tradicional totonaca.",
+  "ruta": "Una buena ruta puede iniciar en el centro de Papantla, después visitar El Tajín y terminar conociendo la tradición de los Voladores.",
+  "lugares": "Algunos lugares recomendados son El Tajín, el centro de Papantla, el Museo Teodoro Cano y el monumento al Volador.",
+  "pueblosMagicos": "Papantla es Pueblo Mágico y se puede combinar con una ruta cultural por el norte de Veracruz."
+},
+"cordoba": {
+  "nombre": "Córdoba",
+  "descripcion": "Córdoba es una ciudad veracruzana con arquitectura histórica, tradición cafetalera y un ambiente tranquilo en la región de las Altas Montañas.",
+  "gastronomia": "En Córdoba puedes probar café de la región, picadas, gorditas, tamales y platillos veracruzanos.",
+  "ruta": "Una buena ruta puede iniciar en el centro histórico, continuar en el Portal de Zevallos y terminar con una visita a una cafetería tradicional.",
+  "lugares": "Algunos lugares recomendados son el centro histórico, el Portal de Zevallos, la Catedral de la Inmaculada Concepción y sus cafeterías.",
+  "pueblosMagicos": "Cerca de Córdoba puedes visitar Orizaba y Coscomatepec, lugares ideales para una ruta de montaña y cultura."
+},
+"coatepec": {
+  "nombre": "Coatepec",
+  "descripcion": "Coatepec es un Pueblo Mágico de Veracruz famoso por su café, clima agradable, calles coloniales y paisajes verdes.",
+  "gastronomia": "En Coatepec te recomiendo probar café de altura, pan artesanal, licores de frutas, tamales y comida veracruzana.",
+  "ruta": "Una buena ruta puede iniciar en el centro histórico, después visitar una finca cafetalera y terminar en alguna cafetería tradicional.",
+  "lugares": "Algunos lugares recomendados son el centro de Coatepec, el Museo del Café, fincas cafetaleras y cascadas cercanas.",
+  "pueblosMagicos": "Coatepec es Pueblo Mágico y se puede combinar con Xico y Xalapa para una ruta cafetalera."
+},
+"xico": {
+  "nombre": "Xico",
+  "descripcion": "Xico es un Pueblo Mágico de Veracruz rodeado de montañas, cascadas, calles empedradas y tradiciones religiosas.",
+  "gastronomia": "En Xico puedes probar mole xiqueño, pan artesanal, licores de frutas, tamales y café de la región.",
+  "ruta": "Una buena ruta puede iniciar en el centro de Xico, después visitar la cascada de Texolo y terminar probando mole tradicional.",
+  "lugares": "Algunos lugares recomendados son la Cascada de Texolo, el centro histórico, la Parroquia de Santa María Magdalena y miradores naturales.",
+  "pueblosMagicos": "Xico es Pueblo Mágico y se puede visitar junto con Coatepec y Xalapa."
+},
+"catemaco": {
+  "nombre": "Catemaco",
+  "descripcion": "Catemaco es un destino de Veracruz conocido por su laguna, naturaleza, misticismo y paseos en lancha.",
+  "gastronomia": "En Catemaco puedes probar tegogolos, mojarra, mariscos, pescado fresco y platillos de la región de Los Tuxtlas.",
+  "ruta": "Una buena ruta puede iniciar con un paseo por la Laguna de Catemaco, continuar hacia la Isla de los Monos y terminar visitando la zona de Los Tuxtlas.",
+  "lugares": "Algunos lugares recomendados son la Laguna de Catemaco, la Isla de los Monos, Nanciyaga y la Reserva de Los Tuxtlas.",
+  "pueblosMagicos": "Cerca de Catemaco puedes visitar pueblos y comunidades de Los Tuxtlas para disfrutar naturaleza, tradición y gastronomía."
+},
+"cuetzalan": {
+  "nombre": "Cuetzalan",
+  "descripcion": "Cuetzalan es un Pueblo Mágico de Puebla con calles empedradas, neblina, cascadas, grutas y una fuerte herencia indígena.",
+  "gastronomia": "En Cuetzalan puedes probar café, tlayoyos, mole, pan tradicional, tamales y platillos serranos.",
+  "ruta": "Una buena ruta puede iniciar en el centro de Cuetzalan, después visitar cascadas cercanas y terminar recorriendo sus mercados tradicionales.",
+  "lugares": "Algunos lugares recomendados son el centro histórico, la Parroquia de San Francisco, cascadas, grutas y mercados artesanales.",
+  "pueblosMagicos": "Cuetzalan es Pueblo Mágico y se puede combinar con Zacatlán y Chignahuapan en una ruta por la sierra de Puebla."
+},
+"zacatlan": {
+  "nombre": "Zacatlán",
+  "descripcion": "Zacatlán es un Pueblo Mágico de Puebla famoso por sus manzanas, relojes monumentales, miradores y paisajes de sierra.",
+  "gastronomia": "En Zacatlán puedes probar sidra, pan de queso, manzanas, mole, tamales y comida serrana.",
+  "ruta": "Una buena ruta puede iniciar en el reloj floral, continuar en el mirador de cristal y terminar con una visita a una fábrica de sidra.",
+  "lugares": "Algunos lugares recomendados son el Reloj Floral, el Mirador de Cristal, el Valle de Piedras Encimadas y fábricas de sidra.",
+  "pueblosMagicos": "Zacatlán es Pueblo Mágico y se puede visitar junto con Chignahuapan y Cuetzalan."
+},
+"chignahuapan": {
+  "nombre": "Chignahuapan",
+  "descripcion": "Chignahuapan es un Pueblo Mágico de Puebla conocido por sus esferas navideñas, aguas termales y paisajes de montaña.",
+  "gastronomia": "En Chignahuapan puedes probar barbacoa, mixiotes, mole poblano, pan tradicional y dulces típicos.",
+  "ruta": "Una buena ruta puede iniciar en el centro, visitar talleres de esferas y terminar relajándose en aguas termales.",
+  "lugares": "Algunos lugares recomendados son la Basílica de la Inmaculada Concepción, la laguna, talleres de esferas y aguas termales.",
+  "pueblosMagicos": "Chignahuapan es Pueblo Mágico y queda cerca de Zacatlán, ideal para una ruta de fin de semana."
+},
+"atlixco": {
+  "nombre": "Atlixco",
+  "descripcion": "Atlixco es un Pueblo Mágico de Puebla conocido por su clima agradable, flores, viveros y vistas al volcán Popocatépetl.",
+  "gastronomia": "En Atlixco puedes probar cecina, mole poblano, tacos placeros, nieves y pan tradicional.",
+  "ruta": "Una buena ruta puede iniciar en el zócalo, después visitar viveros y terminar en el cerro de San Miguel para ver la ciudad.",
+  "lugares": "Algunos lugares recomendados son el zócalo, el Cerro de San Miguel, viveros, murales y antiguos conventos.",
+  "pueblosMagicos": "Atlixco es Pueblo Mágico y puede combinarse con Cholula y Puebla capital."
+},
+"tequisquiapan": {
+  "nombre": "Tequisquiapan",
+  "descripcion": "Tequisquiapan es un Pueblo Mágico de Querétaro famoso por su tranquilidad, viñedos, queserías y calles coloridas.",
+  "gastronomia": "En Tequisquiapan puedes probar quesos artesanales, vinos, gorditas queretanas, enchiladas y comida regional.",
+  "ruta": "Una buena ruta puede iniciar en el centro histórico, después visitar una quesería o viñedo y terminar en la plaza principal.",
+  "lugares": "Algunos lugares recomendados son el centro histórico, viñedos, queserías, la Plaza Miguel Hidalgo y mercados artesanales.",
+  "pueblosMagicos": "Tequisquiapan es Pueblo Mágico y se puede combinar con Bernal y Cadereyta en una ruta por Querétaro."
+},
+"jalpan_de_serra": {
+  "nombre": "Jalpan de Serra",
+  "descripcion": "Jalpan de Serra es un Pueblo Mágico de Querétaro ubicado en la Sierra Gorda, famoso por sus misiones franciscanas y paisajes naturales.",
+  "gastronomia": "En Jalpan de Serra puedes probar cecina, enchiladas serranas, gorditas, tamales y comida regional de la Sierra Gorda.",
+  "ruta": "Una buena ruta puede iniciar en la Misión de Santiago de Jalpan, continuar por la presa Jalpan y terminar explorando la Sierra Gorda.",
+  "lugares": "Algunos lugares recomendados son la Misión de Jalpan, la Presa Jalpan, miradores y rutas naturales de la Sierra Gorda.",
+  "pueblosMagicos": "Jalpan de Serra es Pueblo Mágico y se puede combinar con otros puntos de la Sierra Gorda queretana."
+},
+"amealco": {
+  "nombre": "Amealco",
+  "descripcion": "Amealco es un Pueblo Mágico de Querétaro reconocido por sus muñecas artesanales, paisajes boscosos y cultura otomí.",
+  "gastronomia": "En Amealco puedes probar barbacoa, carnitas, mole, pulque, atole y comida tradicional de la región.",
+  "ruta": "Una buena ruta puede iniciar en el centro, después visitar talleres artesanales y terminar en zonas naturales cercanas.",
+  "lugares": "Algunos lugares recomendados son el Museo de la Muñeca Artesanal, el centro histórico y comunidades artesanas.",
+  "pueblosMagicos": "Amealco es Pueblo Mágico y se puede combinar con Querétaro capital y Tequisquiapan."
+},
+"tapalpa": {
+  "nombre": "Tapalpa",
+  "descripcion": "Tapalpa es un Pueblo Mágico de Jalisco rodeado de bosque, cabañas, paisajes de montaña y arquitectura tradicional.",
+  "gastronomia": "En Tapalpa puedes probar borrego al pastor, tamales, ponche de granada, rompope y dulces típicos.",
+  "ruta": "Una buena ruta puede iniciar en el centro histórico, después visitar Las Piedrotas y terminar en una cabaña o mirador.",
+  "lugares": "Algunos lugares recomendados son Las Piedrotas, el centro histórico, cascadas cercanas y zonas boscosas.",
+  "pueblosMagicos": "Tapalpa es Pueblo Mágico y se puede visitar junto con Mazamitla para una ruta de montaña en Jalisco."
+},
+"mazamitla": {
+  "nombre": "Mazamitla",
+  "descripcion": "Mazamitla es un Pueblo Mágico de Jalisco conocido por sus cabañas, bosques, clima fresco y ambiente de montaña.",
+  "gastronomia": "En Mazamitla puedes probar borrego al pastor, birria, carne en su jugo, ponche y dulces típicos.",
+  "ruta": "Una buena ruta puede iniciar en el centro, después visitar el bosque y terminar en una cascada o mirador.",
+  "lugares": "Algunos lugares recomendados son el centro histórico, la Parroquia de San Cristóbal, cascadas, miradores y cabañas.",
+  "pueblosMagicos": "Mazamitla es Pueblo Mágico y puede combinarse con Tapalpa en una ruta serrana."
+},
+"ajijic": {
+  "nombre": "Ajijic",
+  "descripcion": "Ajijic es un Pueblo Mágico de Jalisco ubicado a la orilla del Lago de Chapala, conocido por su ambiente artístico y vistas al lago.",
+  "gastronomia": "En Ajijic puedes probar mariscos, pescado blanco, charales, comida mexicana y platillos internacionales.",
+  "ruta": "Una buena ruta puede iniciar en el malecón, continuar por sus calles con murales y terminar comiendo frente al lago.",
+  "lugares": "Algunos lugares recomendados son el malecón, el Lago de Chapala, galerías de arte, murales y restaurantes junto al lago.",
+  "pueblosMagicos": "Ajijic es Pueblo Mágico y puede visitarse junto con Chapala y Guadalajara."
+},
+"san_sebastian_del_oeste": {
+  "nombre": "San Sebastián del Oeste",
+  "descripcion": "San Sebastián del Oeste es un Pueblo Mágico de Jalisco con historia minera, calles tranquilas, montañas y arquitectura tradicional.",
+  "gastronomia": "En San Sebastián del Oeste puedes probar café de altura, raicilla, birria, antojitos mexicanos y comida casera.",
+  "ruta": "Una buena ruta puede iniciar en la plaza principal, después visitar antiguas haciendas mineras y terminar en un mirador de montaña.",
+  "lugares": "Algunos lugares recomendados son la plaza principal, antiguas minas, haciendas, miradores y cafeterías locales.",
+  "pueblosMagicos": "San Sebastián del Oeste es Pueblo Mágico y se puede combinar con Puerto Vallarta."
+},
+"uruapan": {
+  "nombre": "Uruapan",
+  "descripcion": "Uruapan es una ciudad de Michoacán conocida por su naturaleza, producción de aguacate, artesanías y el Parque Nacional Barranca del Cupatitzio.",
+  "gastronomia": "En Uruapan puedes probar carnitas, corundas, uchepos, atole, charales y comida tradicional michoacana.",
+  "ruta": "Una buena ruta puede iniciar en el Parque Nacional Barranca del Cupatitzio, después visitar el centro y terminar probando comida regional.",
+  "lugares": "Algunos lugares recomendados son el Parque Nacional Barranca del Cupatitzio, el centro histórico, mercados y talleres artesanales.",
+  "pueblosMagicos": "Cerca de Uruapan puedes visitar Pátzcuaro, Santa Clara del Cobre y Tzintzuntzan."
+},
+"tzintzuntzan": {
+  "nombre": "Tzintzuntzan",
+  "descripcion": "Tzintzuntzan es un Pueblo Mágico de Michoacán con gran importancia histórica purépecha y vistas al Lago de Pátzcuaro.",
+  "gastronomia": "En Tzintzuntzan puedes probar charales, corundas, uchepos, pescado blanco y comida tradicional purépecha.",
+  "ruta": "Una buena ruta puede iniciar en la zona arqueológica de las Yácatas, continuar por el ex convento y terminar frente al lago.",
+  "lugares": "Algunos lugares recomendados son las Yácatas, el Ex Convento de Santa Ana, el centro y el Lago de Pátzcuaro.",
+  "pueblosMagicos": "Tzintzuntzan es Pueblo Mágico y puede visitarse junto con Pátzcuaro y Santa Clara del Cobre."
+},
+"santa_clara_del_cobre": {
+  "nombre": "Santa Clara del Cobre",
+  "descripcion": "Santa Clara del Cobre es un Pueblo Mágico de Michoacán reconocido por su tradición artesanal en cobre martillado.",
+  "gastronomia": "En Santa Clara del Cobre puedes probar carnitas, corundas, uchepos, atole y platillos tradicionales michoacanos.",
+  "ruta": "Una buena ruta puede iniciar en el centro, después visitar talleres de cobre y terminar recorriendo tiendas artesanales.",
+  "lugares": "Algunos lugares recomendados son el Museo Nacional del Cobre, talleres artesanales, la plaza principal y tiendas de artesanías.",
+  "pueblosMagicos": "Santa Clara del Cobre es Pueblo Mágico y se puede combinar con Pátzcuaro y Tzintzuntzan."
+},
+"huatulco": {
+  "nombre": "Huatulco",
+  "descripcion": "Huatulco es un destino costero de Oaxaca famoso por sus bahías, playas tranquilas, naturaleza y turismo ecológico.",
+  "gastronomia": "En Huatulco puedes probar tlayudas, mole negro, mariscos, pescado fresco, mezcal y chocolate oaxaqueño.",
+  "ruta": "Una buena ruta puede iniciar con un recorrido por las bahías, después visitar una playa tranquila y terminar cenando mariscos.",
+  "lugares": "Algunos lugares recomendados son las Bahías de Huatulco, Playa La Entrega, Playa Maguey, Santa Cruz y miradores.",
+  "pueblosMagicos": "Cerca de Huatulco puedes visitar Mazunte, Pueblo Mágico con playas y ambiente natural."
+},
+"mazunte": {
+  "nombre": "Mazunte",
+  "descripcion": "Mazunte es un Pueblo Mágico de Oaxaca conocido por sus playas, ambiente relajado, atardeceres y turismo natural.",
+  "gastronomia": "En Mazunte puedes probar mariscos, pescado fresco, tlayudas, mole oaxaqueño, mezcal y chocolate.",
+  "ruta": "Una buena ruta puede iniciar en la playa principal, continuar hacia Punta Cometa y terminar viendo el atardecer.",
+  "lugares": "Algunos lugares recomendados son Punta Cometa, Playa Mazunte, Playa Mermejita y el Centro Mexicano de la Tortuga.",
+  "pueblosMagicos": "Mazunte es Pueblo Mágico y se puede combinar con Puerto Escondido y Huatulco."
+},
+"mitla": {
+  "nombre": "Mitla",
+  "descripcion": "Mitla es una localidad de Oaxaca famosa por su zona arqueológica, grecas prehispánicas, textiles y tradición cultural.",
+  "gastronomia": "En Mitla puedes probar tlayudas, mole negro, tasajo, memelas, chocolate, mezcal y pan de yema.",
+  "ruta": "Una buena ruta puede iniciar en la zona arqueológica, después visitar talleres textiles y terminar probando mezcal oaxaqueño.",
+  "lugares": "Algunos lugares recomendados son la Zona Arqueológica de Mitla, el mercado, talleres artesanales y mezcalerías cercanas.",
+  "pueblosMagicos": "Cerca de Mitla puedes visitar Oaxaca capital y comunidades del Valle de Tlacolula."
+},
+"real_de_catorce": {
+  "nombre": "Real de Catorce",
+  "descripcion": "Real de Catorce es un Pueblo Mágico de San Luis Potosí con historia minera, paisajes desérticos y un ambiente místico.",
+  "gastronomia": "En Real de Catorce puedes probar gorditas, enchiladas potosinas, asado de boda, cabuches y dulces regionales.",
+  "ruta": "Una buena ruta puede iniciar cruzando el túnel de Ogarrio, continuar por el centro histórico y terminar con un recorrido por el desierto.",
+  "lugares": "Algunos lugares recomendados son el Túnel de Ogarrio, el centro histórico, el Cerro del Quemado y antiguas minas.",
+  "pueblosMagicos": "Real de Catorce es Pueblo Mágico y se puede combinar con San Luis Potosí capital o Matehuala."
+},
+"aquismon": {
+  "nombre": "Aquismón",
+  "descripcion": "Aquismón es un Pueblo Mágico de San Luis Potosí ubicado en la Huasteca Potosina, famoso por cascadas, sótanos y paisajes naturales.",
+  "gastronomia": "En Aquismón puedes probar zacahuil, enchiladas huastecas, cecina, bocoles y platillos de la región huasteca.",
+  "ruta": "Una buena ruta puede iniciar en el Sótano de las Golondrinas, continuar hacia cascadas cercanas y terminar probando comida huasteca.",
+  "lugares": "Algunos lugares recomendados son el Sótano de las Golondrinas, cascadas, ríos y comunidades de la Huasteca Potosina.",
+  "pueblosMagicos": "Aquismón es Pueblo Mágico y se puede combinar con Xilitla y Ciudad Valles."
+},
+"ciudad_valles": {
+  "nombre": "Ciudad Valles",
+  "descripcion": "Ciudad Valles es considerada una puerta de entrada a la Huasteca Potosina, ideal para visitar cascadas, ríos y parajes naturales.",
+  "gastronomia": "En Ciudad Valles puedes probar zacahuil, bocoles, enchiladas huastecas, cecina y aguas frescas regionales.",
+  "ruta": "Una buena ruta puede iniciar en Ciudad Valles y continuar hacia cascadas como Tamul, Micos o Minas Viejas.",
+  "lugares": "Algunos lugares recomendados son Cascadas de Micos, Cascada de Tamul, ríos de la Huasteca y parajes naturales cercanos.",
+  "pueblosMagicos": "Cerca de Ciudad Valles puedes visitar Aquismón y Xilitla, dos destinos muy representativos de la Huasteca."
+},
+"comitan": {
+  "nombre": "Comitán",
+  "descripcion": "Comitán es una ciudad de Chiapas con arquitectura colonial, tradiciones culturales y cercanía con lagos, cascadas y zonas arqueológicas.",
+  "gastronomia": "En Comitán puedes probar butifarra, pan compuesto, tamales, café chiapaneco y dulces tradicionales.",
+  "ruta": "Una buena ruta puede iniciar en el centro histórico, después visitar los Lagos de Montebello y terminar en alguna cafetería local.",
+  "lugares": "Algunos lugares recomendados son el centro histórico, Lagos de Montebello, El Chiflón y museos locales.",
+  "pueblosMagicos": "Comitán es Pueblo Mágico y se puede combinar con San Cristóbal de las Casas y Chiapa de Corzo."
+},
+"tonala_chiapas": {
+  "nombre": "Tonalá Chiapas",
+  "descripcion": "Tonalá es una ciudad costera de Chiapas con playas, manglares, zonas naturales y cercanía con Puerto Arista.",
+  "gastronomia": "En Tonalá puedes probar mariscos, pescado fresco, camarones, tamales chiapanecos y comida costeña.",
+  "ruta": "Una buena ruta puede iniciar en Tonalá, continuar hacia Puerto Arista y terminar disfrutando comida de mar.",
+  "lugares": "Algunos lugares recomendados son Puerto Arista, playas cercanas, manglares y zonas naturales de la costa chiapaneca.",
+  "pueblosMagicos": "Desde Tonalá puedes complementar el viaje con Comitán o San Cristóbal de las Casas en una ruta más amplia por Chiapas."
+},
+"tula_tamaulipas": {
+  "nombre": "Tula Tamaulipas",
+  "descripcion": "Tula es un Pueblo Mágico de Tamaulipas con historia, arquitectura tradicional, paisajes semidesérticos y cultura regional.",
+  "gastronomia": "En Tula puedes probar enchiladas tultecas, cabrito, carne seca, gorditas y dulces regionales.",
+  "ruta": "Una buena ruta puede iniciar en el centro histórico, visitar edificios antiguos y terminar probando comida típica tamaulipeca.",
+  "lugares": "Algunos lugares recomendados son el centro histórico, templos antiguos, plazas y paisajes cercanos.",
+  "pueblosMagicos": "Tula es Pueblo Mágico y puede combinarse con una ruta por Ciudad Victoria o zonas naturales de Tamaulipas."
+},
+"mante": {
+  "nombre": "El Mante",
+  "descripcion": "El Mante es una ciudad de Tamaulipas conocida por su cercanía con ríos, nacimientos de agua y paisajes naturales.",
+  "gastronomia": "En El Mante puedes probar carne asada, cabrito, enchiladas, gorditas y comida regional tamaulipeca.",
+  "ruta": "Una buena ruta puede iniciar en el centro, después visitar parajes naturales cercanos y terminar con comida típica.",
+  "lugares": "Algunos lugares recomendados son El Nacimiento, ríos cercanos, áreas naturales y zonas recreativas.",
+  "pueblosMagicos": "Cerca de El Mante puedes visitar Tula, Pueblo Mágico de Tamaulipas con historia y tradición."
+}
+}
